@@ -22,7 +22,7 @@ def generate_images(model, prompt, size, num_images, response_format='url'):
     except KeyError as e:
         print('A resposta da API não inclui os dados esperados:', e)
         return None
-
+#model prompt and Max size of the image!!
 model = 'image-alpha-001'
 prompt = 'Rose field painted in blue'
 size = '1024x1024'
