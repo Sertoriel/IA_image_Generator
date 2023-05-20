@@ -2,7 +2,7 @@ import requests
 import json
 
 
-API_KEY = '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'
+API_KEY = '---Your API KEY HERE!---'
 API_URL = 'https://api.openai.com/v1/images/generations'
 
 def generate_images(model, prompt, size, num_images, response_format='url'):
